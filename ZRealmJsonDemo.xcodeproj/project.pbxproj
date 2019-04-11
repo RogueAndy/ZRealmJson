@@ -14,12 +14,12 @@
 		82C8E314225F808000197196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C8E313225F808000197196 /* Assets.xcassets */; };
 		82C8E317225F808000197196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C8E315225F808000197196 /* LaunchScreen.storyboard */; };
 		82C8E31A225F808000197196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E319225F808000197196 /* main.m */; };
-		82C8E32D225F809800197196 /* MCJSONPrimaryKeyTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E321225F809800197196 /* MCJSONPrimaryKeyTransformer.m */; };
-		82C8E32E225F809800197196 /* RLMObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E322225F809800197196 /* RLMObject+JSON.m */; };
-		82C8E32F225F809800197196 /* MCJSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E323225F809800197196 /* MCJSONValueTransformer.m */; };
-		82C8E330225F809800197196 /* RLMObject+Copying.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E324225F809800197196 /* RLMObject+Copying.m */; };
-		82C8E331225F809800197196 /* MCJSONNonNullStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E325225F809800197196 /* MCJSONNonNullStringTransformer.m */; };
-		82C8E332225F809800197196 /* MCJSONDateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E329225F809800197196 /* MCJSONDateTransformer.m */; };
+		82C8E340225F878C00197196 /* MCJSONPrimaryKeyTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E334225F878C00197196 /* MCJSONPrimaryKeyTransformer.m */; };
+		82C8E341225F878C00197196 /* RLMObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E335225F878C00197196 /* RLMObject+JSON.m */; };
+		82C8E342225F878C00197196 /* MCJSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E336225F878C00197196 /* MCJSONValueTransformer.m */; };
+		82C8E343225F878C00197196 /* RLMObject+Copying.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E337225F878C00197196 /* RLMObject+Copying.m */; };
+		82C8E344225F878C00197196 /* MCJSONNonNullStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E338225F878C00197196 /* MCJSONNonNullStringTransformer.m */; };
+		82C8E345225F878C00197196 /* MCJSONDateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E33C225F878C00197196 /* MCJSONDateTransformer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,18 +35,18 @@
 		82C8E316225F808000197196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82C8E318225F808000197196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82C8E319225F808000197196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		82C8E321225F809800197196 /* MCJSONPrimaryKeyTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONPrimaryKeyTransformer.m; sourceTree = "<group>"; };
-		82C8E322225F809800197196 /* RLMObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMObject+JSON.m"; sourceTree = "<group>"; };
-		82C8E323225F809800197196 /* MCJSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONValueTransformer.m; sourceTree = "<group>"; };
-		82C8E324225F809800197196 /* RLMObject+Copying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMObject+Copying.m"; sourceTree = "<group>"; };
-		82C8E325225F809800197196 /* MCJSONNonNullStringTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONNonNullStringTransformer.m; sourceTree = "<group>"; };
-		82C8E326225F809800197196 /* MCJSONDateTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONDateTransformer.h; sourceTree = "<group>"; };
-		82C8E327225F809800197196 /* MCJSONPrimaryKeyTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONPrimaryKeyTransformer.h; sourceTree = "<group>"; };
-		82C8E328225F809800197196 /* RLMObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMObject+JSON.h"; sourceTree = "<group>"; };
-		82C8E329225F809800197196 /* MCJSONDateTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONDateTransformer.m; sourceTree = "<group>"; };
-		82C8E32A225F809800197196 /* MCJSONNonNullStringTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONNonNullStringTransformer.h; sourceTree = "<group>"; };
-		82C8E32B225F809800197196 /* RLMObject+Copying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMObject+Copying.h"; sourceTree = "<group>"; };
-		82C8E32C225F809800197196 /* MCJSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONValueTransformer.h; sourceTree = "<group>"; };
+		82C8E334225F878C00197196 /* MCJSONPrimaryKeyTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONPrimaryKeyTransformer.m; sourceTree = "<group>"; };
+		82C8E335225F878C00197196 /* RLMObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMObject+JSON.m"; sourceTree = "<group>"; };
+		82C8E336225F878C00197196 /* MCJSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONValueTransformer.m; sourceTree = "<group>"; };
+		82C8E337225F878C00197196 /* RLMObject+Copying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMObject+Copying.m"; sourceTree = "<group>"; };
+		82C8E338225F878C00197196 /* MCJSONNonNullStringTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONNonNullStringTransformer.m; sourceTree = "<group>"; };
+		82C8E339225F878C00197196 /* MCJSONDateTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONDateTransformer.h; sourceTree = "<group>"; };
+		82C8E33A225F878C00197196 /* MCJSONPrimaryKeyTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONPrimaryKeyTransformer.h; sourceTree = "<group>"; };
+		82C8E33B225F878C00197196 /* RLMObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMObject+JSON.h"; sourceTree = "<group>"; };
+		82C8E33C225F878C00197196 /* MCJSONDateTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONDateTransformer.m; sourceTree = "<group>"; };
+		82C8E33D225F878C00197196 /* MCJSONNonNullStringTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONNonNullStringTransformer.h; sourceTree = "<group>"; };
+		82C8E33E225F878C00197196 /* RLMObject+Copying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMObject+Copying.h"; sourceTree = "<group>"; };
+		82C8E33F225F878C00197196 /* MCJSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONValueTransformer.h; sourceTree = "<group>"; };
 		9B8EFE94BE0C6B97295AA820 /* Pods-ZRealmJsonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRealmJsonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZRealmJsonDemo/Pods-ZRealmJsonDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +83,7 @@
 		82C8E309225F807F00197196 /* ZRealmJsonDemo */ = {
 			isa = PBXGroup;
 			children = (
-				82C8E320225F809800197196 /* ZRealmJson */,
+				82C8E333225F878C00197196 /* ZRealmJson */,
 				82C8E30A225F807F00197196 /* AppDelegate.h */,
 				82C8E30B225F807F00197196 /* AppDelegate.m */,
 				82C8E30D225F807F00197196 /* ViewController.h */,
@@ -97,25 +97,24 @@
 			path = ZRealmJsonDemo;
 			sourceTree = "<group>";
 		};
-		82C8E320225F809800197196 /* ZRealmJson */ = {
+		82C8E333225F878C00197196 /* ZRealmJson */ = {
 			isa = PBXGroup;
 			children = (
-				82C8E328225F809800197196 /* RLMObject+JSON.h */,
-				82C8E322225F809800197196 /* RLMObject+JSON.m */,
-				82C8E32C225F809800197196 /* MCJSONValueTransformer.h */,
-				82C8E323225F809800197196 /* MCJSONValueTransformer.m */,
-				82C8E32B225F809800197196 /* RLMObject+Copying.h */,
-				82C8E324225F809800197196 /* RLMObject+Copying.m */,
-				82C8E327225F809800197196 /* MCJSONPrimaryKeyTransformer.h */,
-				82C8E321225F809800197196 /* MCJSONPrimaryKeyTransformer.m */,
-				82C8E32A225F809800197196 /* MCJSONNonNullStringTransformer.h */,
-				82C8E325225F809800197196 /* MCJSONNonNullStringTransformer.m */,
-				82C8E326225F809800197196 /* MCJSONDateTransformer.h */,
-				82C8E329225F809800197196 /* MCJSONDateTransformer.m */,
+				82C8E334225F878C00197196 /* MCJSONPrimaryKeyTransformer.m */,
+				82C8E335225F878C00197196 /* RLMObject+JSON.m */,
+				82C8E336225F878C00197196 /* MCJSONValueTransformer.m */,
+				82C8E337225F878C00197196 /* RLMObject+Copying.m */,
+				82C8E338225F878C00197196 /* MCJSONNonNullStringTransformer.m */,
+				82C8E339225F878C00197196 /* MCJSONDateTransformer.h */,
+				82C8E33A225F878C00197196 /* MCJSONPrimaryKeyTransformer.h */,
+				82C8E33B225F878C00197196 /* RLMObject+JSON.h */,
+				82C8E33C225F878C00197196 /* MCJSONDateTransformer.m */,
+				82C8E33D225F878C00197196 /* MCJSONNonNullStringTransformer.h */,
+				82C8E33E225F878C00197196 /* RLMObject+Copying.h */,
+				82C8E33F225F878C00197196 /* MCJSONValueTransformer.h */,
 			);
-			name = ZRealmJson;
-			path = ../../ZRealmJson;
-			sourceTree = "<group>";
+			path = ZRealmJson;
+			sourceTree = SOURCE_ROOT;
 		};
 		BF79190CFBA587176D739D5A /* Frameworks */ = {
 			isa = PBXGroup;
@@ -231,14 +230,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				82C8E30F225F807F00197196 /* ViewController.m in Sources */,
-				82C8E32F225F809800197196 /* MCJSONValueTransformer.m in Sources */,
-				82C8E331225F809800197196 /* MCJSONNonNullStringTransformer.m in Sources */,
-				82C8E332225F809800197196 /* MCJSONDateTransformer.m in Sources */,
+				82C8E342225F878C00197196 /* MCJSONValueTransformer.m in Sources */,
+				82C8E344225F878C00197196 /* MCJSONNonNullStringTransformer.m in Sources */,
+				82C8E345225F878C00197196 /* MCJSONDateTransformer.m in Sources */,
 				82C8E31A225F808000197196 /* main.m in Sources */,
-				82C8E32D225F809800197196 /* MCJSONPrimaryKeyTransformer.m in Sources */,
-				82C8E32E225F809800197196 /* RLMObject+JSON.m in Sources */,
+				82C8E340225F878C00197196 /* MCJSONPrimaryKeyTransformer.m in Sources */,
+				82C8E341225F878C00197196 /* RLMObject+JSON.m in Sources */,
 				82C8E30C225F807F00197196 /* AppDelegate.m in Sources */,
-				82C8E330225F809800197196 /* RLMObject+Copying.m in Sources */,
+				82C8E343225F878C00197196 /* RLMObject+Copying.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B889F52266BB119CAAA8FAB /* libPods-ZRealmJsonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDE5C498F9E3DFD7829059E /* libPods-ZRealmJsonDemo.a */; };
 		82C8E30C225F807F00197196 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E30B225F807F00197196 /* AppDelegate.m */; };
 		82C8E30F225F807F00197196 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E30E225F807F00197196 /* ViewController.m */; };
 		82C8E312225F807F00197196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C8E310225F807F00197196 /* Main.storyboard */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06FA83036BFA12232553C263 /* Pods-ZRealmJsonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRealmJsonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZRealmJsonDemo/Pods-ZRealmJsonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6BDE5C498F9E3DFD7829059E /* libPods-ZRealmJsonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZRealmJsonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C8E307225F807F00197196 /* ZRealmJsonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRealmJsonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C8E30A225F807F00197196 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82C8E30B225F807F00197196 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		82C8E32A225F809800197196 /* MCJSONNonNullStringTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONNonNullStringTransformer.h; sourceTree = "<group>"; };
 		82C8E32B225F809800197196 /* RLMObject+Copying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMObject+Copying.h"; sourceTree = "<group>"; };
 		82C8E32C225F809800197196 /* MCJSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONValueTransformer.h; sourceTree = "<group>"; };
+		9B8EFE94BE0C6B97295AA820 /* Pods-ZRealmJsonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRealmJsonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZRealmJsonDemo/Pods-ZRealmJsonDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B889F52266BB119CAAA8FAB /* libPods-ZRealmJsonDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,8 @@
 			children = (
 				82C8E309225F807F00197196 /* ZRealmJsonDemo */,
 				82C8E308225F807F00197196 /* Products */,
+				E4018259A904A8B5A5A31D0F /* Pods */,
+				BF79190CFBA587176D739D5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +117,23 @@
 			path = ../../ZRealmJson;
 			sourceTree = "<group>";
 		};
+		BF79190CFBA587176D739D5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BDE5C498F9E3DFD7829059E /* libPods-ZRealmJsonDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4018259A904A8B5A5A31D0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B8EFE94BE0C6B97295AA820 /* Pods-ZRealmJsonDemo.debug.xcconfig */,
+				06FA83036BFA12232553C263 /* Pods-ZRealmJsonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,6 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82C8E31D225F808000197196 /* Build configuration list for PBXNativeTarget "ZRealmJsonDemo" */;
 			buildPhases = (
+				05BFE7294E342F3EAF925DBF /* [CP] Check Pods Manifest.lock */,
 				82C8E303225F807F00197196 /* Sources */,
 				82C8E304225F807F00197196 /* Frameworks */,
 				82C8E305225F807F00197196 /* Resources */,
@@ -174,6 +199,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05BFE7294E342F3EAF925DBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZRealmJsonDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		82C8E303225F807F00197196 /* Sources */ = {
@@ -328,6 +378,7 @@
 		};
 		82C8E31E225F808000197196 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B8EFE94BE0C6B97295AA820 /* Pods-ZRealmJsonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -347,6 +398,7 @@
 		};
 		82C8E31F225F808000197196 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06FA83036BFA12232553C263 /* Pods-ZRealmJsonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
